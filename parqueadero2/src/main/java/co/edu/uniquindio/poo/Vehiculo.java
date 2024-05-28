@@ -5,10 +5,10 @@ package co.edu.uniquindio.poo;
  */
 public class Vehiculo {
     // Atributos del vehículo
-    private String placa;   // Placa del vehículo
-    private String modelo;  // Modelo del vehículo
-    private double tarifa;  // Tarifa por hora para el vehículo
-    private int id;         // ID único del propietario del vehículo
+    public String placa;   // Placa del vehículo
+    public String modelo;  // Modelo del vehículo
+    public double tarifa;  // Tarifa por hora para el vehículo
+    public int id;         // ID único del propietario del vehículo
 
     /**
      * Constructor para inicializar un vehículo.
